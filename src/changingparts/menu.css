@@ -1,0 +1,54 @@
+.menu-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    margin: 50px 70px;
+}
+
+.menu-content {
+    flex: 1;
+    margin-right: 20px;
+    text-align: justify;
+}
+
+.menu-content h2 {
+    font-family: 'Georgia', serif;
+    font-size: 2em;
+    margin-bottom: 20px;
+   text-align: center;
+}
+
+.menu-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu-content li {
+    margin-bottom: 20px;
+}
+
+.menu-content h3 {
+    font-family: 'Georgia', serif;
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.menu-content p {
+    font-family: 'Arial', sans-serif;
+    font-size: 1em;
+    color: #666;
+}
+
+.menu-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
